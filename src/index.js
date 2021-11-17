@@ -13,7 +13,7 @@ app.use(userRouter)
 app.use(taskRouter)
 
 app.listen(port ,()=>{
-    console.log('conetcting to server',PORT)
+    console.log('conetcting to server',port)
 })
 // app.use((req,res,next)=>{
 //     if(req.method === 'GET'){
